@@ -11,5 +11,23 @@ Enzyme.configure({ adapter: new EnzymeAdapter() });
 it('renders without errors', () => {
     // console.log(wrapper.debug())
     const wrapper = shallow(<App />);
-    expect(wrapper).toBeTruthy();
+    const appComponent = wrapper.find("[data-test='component-app']");
+    expect(appComponent.length).toBe(1);
+    // expect(wrapper).toBeTruthy();
+});
+
+test('renders increment button', () => {
+
+});
+
+test('renders counter display', () => {
+
+});
+
+test('counter starts at 0', () => {
+
+});
+
+test('clicking button increments counter on display', () => {
+
 });
