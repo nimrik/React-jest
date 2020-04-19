@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/vcs.xml
+/inspectionProfiles/Project_Default.xml
+/misc.xml
+/modules.xml
+/React-jest.iml
